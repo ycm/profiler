@@ -1,0 +1,21 @@
+{
+    "pre-primer": [
+        "the", "to", "and", "a", "I", "you", "it", "in", "said", "for", "up", "look", "is", "go", "we", "little", "down", "can", "see", "not", "one", "my", "me", "big", "come", "blue", "red", "where", "jump", "away", "here", "help", "make", "yellow", "two", "play", "run", "find", "three", "funny", "apple", "farmer", "party", "baby", "father", "picture", "back", "feet", "pig", "ball", "fire", "rabbit", "bear", "fish", "rain", "bed", "floor", "ring", "bell", "flower", "robin", "bird", "game", "Santa", "Claus", "birthday", "garden", "school", "boat", "girl", "seed", "box", "goodbye", "bye", "sheep", "boy", "grass", "shoe", "bread", "ground", "sister", "brother", "hand", "snow", "cake", "head", "song", "car", "hill", "squirrel", "cat", "home", "stick", "chair", "horse", "street", "chicken", "house", "sun", "children", "kitty", "table", "Christmas", "leg", "thing", "coat", "letter", "time", "corn", "man", "top", "cow", "men", "toy", "day", "milk", "tree", "dog", "money", "watch", "doll", "morning", "water", "door", "mother", "way", "duck", "name", "wind", "egg", "nest", "window", "eye", "night", "wood", "farm", "paper"
+    ],
+
+    "primer": [
+    "he", "was", "that", "she", "on", "they", "but", "at", "with", "all", "there", "out", "be", "have", "am", "do", "did", "what", "so", "get", "like", "this", "will", "yes", "went", "are", "now", "no", "came", "ride", "into", "good", "want", "too", "pretty", "four", "saw", "well", "ran", "brown", "eat", "who", "new", "must", "black", "white", "soon", "our", "ate", "say", "under", "please"
+    ],
+
+    "first-grade": [
+"of", "his", "had", "him", "her", "some", "as", "then", "could", "when", "were", "them", "ask", "an", "over", "just", "from", "any", "how", "know", "put", "take", "every", "old", "by", "after", "think", "let", "going", "walk", "again", "may", "stop", "fly", "round", "give", "once", "open", "has", "live", "thank"
+    ],
+
+    "second-grade": [
+    "would", "very", "your", "its", "around", "don't", "right", "green", "their", "call", "sleep", "five", "wash", "or", "before", "been", "off", "cold", "tell", "work", "first", "does", "goes", "write", "always", "made", "gave", "us", "buy", "those", "use", "fast", "pull", "both", "sit", "which", "read", "why", "found", "because", "best", "upon", "these", "sing", "wish", "many"
+    ],
+
+    "third-grade": [
+    "if", "long", "about", "got", "six", "never", "seven", "eight", "today", "myself", "much", "keep", "try", "start", "ten", "bring", "drink", "only", "better", "hold", "warm", "full", "done", "light", "pick", "hurt", "cut", "kind", "fall", "carry", "small", "own", "show", "hot", "far", "draw", "clean", "grow", "together", "shall", "laugh"
+    ]
+}
