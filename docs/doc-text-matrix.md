@@ -4,6 +4,10 @@
 
 *Created June 23, 2020*
 
+## Misc
+
+Punctuation: `[',', '.', '"', '-', '?', !', "'",]`
+
 ## Featurization
 
 ### Tokenize passage
@@ -85,4 +89,25 @@ df['dolch_1'] = f_first_grade
 df['dolch_2'] = f_second_grade
 df['dolch_3'] = f_third_grade
 ```
+
+### FEATURE: $k$-th occurrence
+
+- A Moby.Read item consists of title, introduction, and passage.
+- Every token in the passage is assigned an integer corresponding to if it is the first, second, third, etc. time that it is appearing **in the entire item**.
+  - Ex. If the word `introduction` appears in the title or introduction, we expect the child to have an easier time with this word, considering they have just heard a model prononciation.
+- Some words may be underlined in the introduction. For the time being the underlining is ignored.
+
+Dictionaries: (type, item) $\to$ title/intro strings
+
+```
+data/moby-passages-36/passage-title-dict.pkl
+data/moby-passages-36/passage-intro-dict.pkl
+```
+
+Complete JSON: `data/moby-passages-36/processed_items.json`
+
+- A feature named `occ_7` is 1 if the token **has occurred at least 7 times before**.
+- Case insensitive
+- Features go from `occ_0` to `occ_9`.
+- `_START_` token and punctuation are assigned the value 0 everywhere.
 
