@@ -1,0 +1,67 @@
+# Changes I made to Susan's LTS table
+# The column letters below are after deleting column A (which was blank)
+#
+# ADDED:
+# "teacher's" (note the apostrophe)
+# "rabbit"
+
+row	col	word	type	from	to
+23	D	also	LTS	''	1,5
+73	D	behind	LTS	''	1,2,3
+134	D	cannot	LTS	S,S	S,S,1
+150	F	children	Svocab-LTS	1.2	1,2
+157	D	classroom	LTS	S,S	S,S,1,2,9
+231	D	drops	LTS	''	1,2
+259	E	every	morphs	2	1
+260	G	everyday	D,ND	D	ND
+272	G	familiar	D,ND	D	ND
+285	E	field	fields	1	2
+310	E	folks	morphs	1	2
+330	E	furry	morphs	1	2
+352	E	grade	morphs	`	1
+356	E	grandparents	morphs	2	3
+385	E	heart	morphs	''	1
+403	E	homework	morphs	''	2
+403	D	homework	LTS	S,S	S,S,1,4,12
+410	E	houseplants	morphs	2	3
+410	D	houseplants	LTS	S,S	S,S,1,2,4,9
+413	D	however	LTS	S,S	S,S,1,8,9
+443	G	japan	D,ND	D	ND
+472	E	leaders	morphs	2	3
+480	E	lentils	morphs	1	2
+485	F	light	Svocab-LTS	1,12	1,11
+486	F	lights	Svocab-LTS	1,12	1,11
+492	A	live -inf	D,ND	D	ND
+501	F	lost	Svocab-LTS	''	1
+539	G	month	D,ND	D	ND
+562	D	nearby	LTS	S,S	S,S,1,5,9
+585	F	oh	Svocab-LTS	?	1
+592	G	onto	D,ND	D	ND
+601	F	outside	Svocab-LTS	0	''
+601	D	outside	LTS	S,S	S,S,1,6,9
+604	D	overnight	LTS	S,S	S,S,1,5,8,11
+678	E	really	morphs	''	2
+725	E	secure	morphs	''	1
+725	G	secure	D,ND	D	ND
+746	F	showed	Svocab-LTS	1.3	1
+749	C	sidewalk	LTS	S,S	S,S,1
+756	E	sixth	morphs	1?	1
+762	E	skydivers	morphs	3	4
+778	E	snowflakes	morphs	2	3
+787	G	somewhere	D,ND	D	ND
+799	E	squirrel	morphs	''	1
+800	E	squirrels	morphs	''	2
+814	E	stopped	morphs	''	2
+815	E	stops	morphs	''	2
+817	E	storm	morphs	''	1
+835	F	sunlight	LTS	S,S	S,S,1,11
+837	E	sure	morphs	''	1
+846	E	symbolize	morphs	1	2
+848	E	tadpoles	morphs	1	2
+856	E	tasted	morphs	1	2
+859	E	tasty	morphs	1	2
+964	G	wind	D,ND	D	ND	
+966	E	windy	morphs	1	2
+966	G	windy	D,ND	D	ND
+973	E	woods	morphs	1	2
+979	E	worsens	morphs	2?	2

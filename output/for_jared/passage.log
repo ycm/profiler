@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.17)  2 JUL 2020 02:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.17)  2 JUL 2020 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -162,10 +162,19 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 16.
- [1
 
-{/usr/local/texlive/2019basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (.
-/passage.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+[1
+
+{/usr/local/texlive/2019basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./passage.aux) )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 16 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
  1838 strings out of 493610
  23892 string characters out of 6159293
@@ -173,12 +182,12 @@ Here is how much of TeX's memory you used:
  6024 multiletter control sequences out of 15000+600000
  7139 words of font info for 19 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 25i,5n,37p,337b,109s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019basic/texmf-dist/fonts/enc/dvips/base/8r
-.enc}</usr/local/texlive/2019basic/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.p
-fb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
->
-Output written on passage.pdf (1 page, 15322 bytes).
+ 25i,5n,37p,337b,221s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019basic/texmf-dist/fonts/enc/dvips/base/8
+r.enc}</usr/local/texlive/2019basic/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.
+pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
+b>
+Output written on passage.pdf (1 page, 15514 bytes).
 PDF statistics:
  17 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream
