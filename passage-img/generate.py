@@ -7,7 +7,7 @@ $: line break
 
 import os, sys, string, re, json
 
-grade_1 = [1401, 1603, 1903, 1505, 1804, 1807, 1502, 1703, 2001]
+grade_1 = [1401, 1603, 1903, 1505, 1804, 1807, 1502, 1703, 2001, '0000']
 grade_2 = [350, 2203, 2401, 330, 2201, 2202, 310, 2102, 2302]
 grade_3 = [420, 2403, 2701, 320, 450, 2503, 410, 2101, 2504]
 grade_4 = [520, 2402, 2904, 2601, 2801, 3105, 2803, 2902, 3106]
@@ -25,8 +25,14 @@ with open('../data/moby-passages-36/passages-with-line-breaks.tsv') as f:
 
 with open('../data/moby-passages-36/from-susan/lts-20200703.json') as f:
     LTS = json.load(f)
+    LTS['jane'] = {'sight_word': [], 'decodable': 1, 'grade_level_if_decodable': 1}
+    LTS['dad'] = {'sight_word': -1, 'decodable': 1, 'grade_level_if_decodable': 1}
+    LTS['hill'] = {'sight_word': 1, 'decodable': 1, 'grade_level_if_decodable': 1}
+    LTS['yet'] = {'sight_word': [], 'decodable': 1, 'grade_level_if_decodable': 1}
+    LTS['top']  = {'sight_word': 1, 'decodable': 1, 'grade_level_if_decodable': 1}
+    LTS['flowers'] = {'sight_word': 1, 'decodable': 1, 'grade_level_if_decodable': 1}
 
-with open('../data/moby-passages-36/item_to_complete_passage.json') as f:
+with open('../data/moby-passages-36/item_to_complete_passage_revised.json') as f:
     item_to_complete_passage = json.load(f)
 
 for item_number, passage in item_to_passage.items():
