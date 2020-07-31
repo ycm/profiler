@@ -5,7 +5,6 @@
 
 import os
 import argparse
-
 import pandas as pd
 
 def generate_scores_for_session():
@@ -20,11 +19,10 @@ def main():
     gold_readings_dir = args.gold_readings_dir    
 
     gold_readings_dataframes = [
-        pd.read_csv(os.path.join(gold_readings_dir, file), sep='\t')
+        pd.read_csv(os.path.join(gold_readings_dir, file), sep='\t').fillna('').rename(columns={'Unnamed: 0': 'gold_token'})
         for file in os.listdir(gold_readings_dir)
     ]
 
-    print(gold_readings_dataframes[0])
 
 if __name__ == "__main__":
     main()
