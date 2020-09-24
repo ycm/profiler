@@ -1,0 +1,10 @@
+				
+	"select distinct r.session, r.response,"			
+	"ExtractValue(r.xml, '//scores/@wcpm') wcpm,"			
+	"ExtractValue(t.xml, '//scores/@comp')/2 + ExtractValue(saq1.xml, '//scores/@SAQ') + ExtractValue(saq2.xml, '//scores/@SAQ') comp,"			
+	"ExtractValue(r.xml, '//scores/@prosody') prosody"			
+	"from ami.responses r, ami.responses t, ami.responses saq1, ami.responses saq2 where r.type = 3026 and t.type = 3027 and saq1.type = 3028"			
+	and saq2.type = 3028 and r.session = t.session and r.session = saq1.session and r.session = saq2.session			
+	and t.item = r.item and saq1.item = r.item and saq2.starttime =			
+	(select min(rrr.starttime) from ami.responses rrr where rrr.session = r.session and rrr.type = 3028 and rrr.starttime > saq1.endtime)			
+	and r.response in (select response from ami.responsesetes where responseset between 9 and 16);			
