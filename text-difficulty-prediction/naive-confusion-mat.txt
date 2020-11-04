@@ -1,0 +1,121 @@
+Form = Grade1Fall
+acc = 76.70%
+  |  1  2  3 |
+--+----------+
+1 |<13>12  . |
+2 |  1<40> . |
+3 |  . 11<26>|
+--+----------+
+(row = reference; col = test)
+
+Form = Grade1Winter
+acc = 68.09%
+  |  1  2  3 |
+--+----------+
+1 | <6>15  1 |
+2 |  4<39> 4 |
+3 |  .  6<19>|
+--+----------+
+(row = reference; col = test)
+
+Form = Grade1Spring
+acc = 67.00%
+  |  1  2  3 |
+--+----------+
+1 |<10>19  . |
+2 |  2<36> 4 |
+3 |  .  8<21>|
+--+----------+
+(row = reference; col = test)
+
+Form = Grade2Fall
+acc = 73.79%
+  |  1  2  3 |
+--+----------+
+1 | <8>11  . |
+2 |  2<47> 4 |
+3 |  1  9<21>|
+--+----------+
+(row = reference; col = test)
+
+Form = Grade2Winter
+acc = 77.67%
+  |  1  2  3 |
+--+----------+
+1 |<17> 6  . |
+2 |  .<44> 7 |
+3 |  . 10<19>|
+--+----------+
+(row = reference; col = test)
+
+Form = Grade2Spring
+acc = 80.41%
+  |  1  2  3 |
+--+----------+
+1 | <6> 6  . |
+2 |  1<47> . |
+3 |  . 12<25>|
+--+----------+
+(row = reference; col = test)
+
+Form = Grade3Fall
+acc = 80.39%
+  |  1  2  3 |
+--+----------+
+1 |<12> 4  1 |
+2 |  1<53> 8 |
+3 |  .  6<17>|
+--+----------+
+(row = reference; col = test)
+
+Form = Grade3Winter
+acc = 66.00%
+  |  1  2  3 |
+--+----------+
+1 | <4> 1  . |
+2 |  3<41> 4 |
+3 |  . 26<21>|
+--+----------+
+(row = reference; col = test)
+
+Form = Grade3Spring
+acc = 77.00%
+  |  1  2  3 |
+--+----------+
+1 | <1> 2  . |
+2 |  1<54> 3 |
+3 |  . 17<22>|
+--+----------+
+(row = reference; col = test)
+
+Form = Grade4Fall
+acc = 74.00%
+  |  1  2  3 |
+--+----------+
+1 | <5> 1  . |
+2 |  5<52> 8 |
+3 |  . 12<17>|
+--+----------+
+(row = reference; col = test)
+
+Form = Grade4Winter
+acc = 73.74%
+  |  1  2  3 |
+--+----------+
+1 |<11> 3  . |
+2 |  5<50>16 |
+3 |  .  2<12>|
+--+----------+
+(row = reference; col = test)
+
+Form = Grade4Spring
+acc = 76.47%
+  |  1  2  3 |
+--+----------+
+1 | <7> 8  . |
+2 |  .<49> 5 |
+3 |  . 11<22>|
+--+----------+
+(row = reference; col = test)
+
+median accuracy: 0.752
