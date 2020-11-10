@@ -132,7 +132,7 @@ for session, alignment in session_to_alignment.items():
     session_to_features[session] = []
     for token, sframe, nframes in alignment:
         f0s = session_to_f0[session][sframe:sframe + nframes]
-        f0s = [x - recording_mean for x in f0s] # center
+        f0s = [x for x in f0s if x]
         pitch_mean = sum(f0s) / len(f0s) if f0s else 0
         pitch_start = f0s[0]
         pitch_end = f0s[-1]
