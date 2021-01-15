@@ -43,9 +43,9 @@ if not os.path.exists(OUTPUT_DIR):
 #     for k, v in item_number_to_text_with_line_breaks.items()
 # }
 
-with open('data/moby/jsons/item_to_passage.json') as f:
+with open('data/moby/jsons/item_to_passage_new.json') as f:
     item_number_to_text_with_line_breaks = json.load(f)
-with open('data/moby/jsons/item_to_recstring.json') as f:
+with open('data/moby/jsons/item_to_recstring_new.json') as f:
     item_number_to_recstring = json.load(f)
 
 def get_processed_token(token):
